@@ -10,8 +10,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 134px;
-    margin-top: 28px; /* Опускает всю внутренность на 28px вниз к эталону */
+    height: 188px;
     margin-bottom: 16px;
   }
 
@@ -27,14 +26,14 @@
     font-weight: 500;
     line-height: 16px;
     color: #000;
-    margin-bottom: 4px;
+    margin: 0 0 4px;
   }
 
   &__code {
     font-size: 10px;
     line-height: 12px;
     color: #888;
-    margin-bottom: 16px;
+    margin: 0 0 16px;
   }
 
   &__rating {
@@ -71,6 +70,7 @@
   }
 
   &__buy-link {
+    box-sizing: border-box;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -85,9 +85,7 @@
     line-height: 16px;
     text-transform: uppercase;
     border: 1px solid #00a0e3;
-    transition:
-      background-color 0.2s,
-      color 0.2s;
+    transition: background-color 0.2s, color 0.2s;
 
     &:hover {
       background-color: #fff;
