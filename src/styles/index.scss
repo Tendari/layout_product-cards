@@ -1,4 +1,13 @@
-@import 'variables';
-@import 'reset';
-@import 'blocks/stars';
-@import 'blocks/card';
+@import './variables';
+@import './reset';
+@import './blocks/card';
+@import './blocks/stars';
+
+.page {
+  min-height: 100vh;
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
