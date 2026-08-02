@@ -1,17 +1,18 @@
 .card {
   box-sizing: border-box;
-  width: $card-width;
-  padding: $card-padding;
+  width: 200px;
+  padding: 16px;
   border: 1px solid $color-border;
   border-radius: $card-border-radius;
   background-color: $color-white;
 
-  &__image-container {
+&__image-container {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 134px;
     margin-top: 28px;
-    margin-bottom: $card-padding;
+    margin-bottom: 16px;
   }
 
   &__image {
@@ -26,14 +27,14 @@
     font-weight: 500;
     line-height: 16px;
     color: $color-black;
-    margin: 0 0 4px;
+    margin-bottom: 4px;
   }
 
   &__code {
     font-size: 10px;
     line-height: 12px;
     color: $color-gray-dark;
-    margin: 0 0 $card-padding;
+    margin-bottom: $card-padding;
   }
 
   &__rating {
